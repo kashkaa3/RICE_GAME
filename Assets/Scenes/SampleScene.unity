@@ -244,6 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1056c16b2081569419df6fc14fd4ab38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogChoice
+  emotionName: Happy
   emoteType: 1
   emoteValue: 1
   dialogueManager: {fileID: 1142789511}
@@ -275,7 +276,7 @@ Transform:
   m_GameObject: {fileID: 211142093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1313.73, y: 11.88, z: -1482.5197}
+  m_LocalPosition: {x: -1312.84, y: 11.88, z: -1482.62}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -309,7 +310,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211142093}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -587,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   mouseSensitivity: 200
-  maxLookY: 50
+  maxLookY: 40
   maxLookX: 20
 --- !u!114 &330585549
 MonoBehaviour:
@@ -668,7 +669,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357610706}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -873,7 +874,7 @@ Transform:
   m_GameObject: {fileID: 479918522}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1312.61, y: 13.33, z: -1481.4}
+  m_LocalPosition: {x: -1311.4, y: 12.43, z: -1481.4}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -907,7 +908,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479918522}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1248,6 +1249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1056c16b2081569419df6fc14fd4ab38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogChoice
+  emotionName: Sad
   emoteType: 2
   emoteValue: 1
   dialogueManager: {fileID: 1142789511}
@@ -1331,14 +1333,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ea62b1cec63e4409327a819495abf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
+  inkJSON: {fileID: 4900000, guid: 25884f43144cc394c95bcfef53b0ad82, type: 3}
   DialoguePanel: {fileID: 1352039975}
   DialogueText: {fileID: 1300721636}
   NameText: {fileID: 1845924856}
-  Choices:
-  - {fileID: 1458961397}
-  - {fileID: 4617599}
-  - {fileID: 863782191}
-  - {fileID: 1963747779}
+  angrySphere: {fileID: 1458961397}
+  happySphere: {fileID: 4617599}
+  sadsphere: {fileID: 863782191}
+  silentSphere: {fileID: 1963747779}
   SpawnPoints:
   - {fileID: 357610707}
   - {fileID: 479918523}
@@ -1391,7 +1393,7 @@ Transform:
   m_GameObject: {fileID: 1286122854}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1310.4463, y: 12.93999, z: -1482.5197}
+  m_LocalPosition: {x: -1309.74, y: 12.7, z: -1482.5197}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1425,7 +1427,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286122854}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1814,6 +1816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1056c16b2081569419df6fc14fd4ab38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogChoice
+  emotionName: Angry
   emoteType: 0
   emoteValue: 1
   dialogueManager: {fileID: 1142789511}
@@ -1845,7 +1848,7 @@ Transform:
   m_GameObject: {fileID: 1496071082}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1315.44, y: 13.266991, z: -1482.5197}
+  m_LocalPosition: {x: -1314.19, y: 13.266991, z: -1481.8}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1879,7 +1882,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496071082}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2130,7 +2133,7 @@ RectTransform:
   m_GameObject: {fileID: 1928800095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 60.000004, y: 60.000004, z: 60.000004}
+  m_LocalScale: {x: 70, y: 70, z: 70}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2102948293}
@@ -2225,6 +2228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1056c16b2081569419df6fc14fd4ab38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogChoice
+  emotionName: Silent
   emoteType: 3
   emoteValue: 1
   dialogueManager: {fileID: 1142789511}
@@ -2447,7 +2451,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070397583}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
